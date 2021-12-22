@@ -1,0 +1,124 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  position: fixed;
+  display: flex;
+  border: 1px solid black;
+  right: 0;
+  color: white;
+  width: 100%;
+  padding: 30px 30px 30px 30px;
+}
+
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  font-size: 13px;
+  width: 50%;
+  padding-top: 20px;
+  left: 325px;
+}
+
+.nav-links-set-two{
+  display: flex;
+  margin-left: auto;
+  width: 10%;
+  font-size: 13px;
+  padding-top: 20px;
+  justify-content: flex-end;
+}
+
+.logo{
+  height:20px;
+  width: 20px;
+  position: fixed;
+  left: 120px;
+  top: 40px;
+}
+
+.main-layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: black;
+  height: 100vh;
+  color: white;
+  padding-bottom: 120px;
+  padding-left: 75px;
+}
+
+.content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: 40%;
+  padding-top: 20px;
+}
+
+.main-heading{
+  font-size: 39px;
+  font-weight: 600;
+  text-shadow: 0 0 2px #555;
+}
+
+.custom-btn{
+  width: 32%;
+  height: 55px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  bottom: 0;
+}
+
+.shop-link {
+  margin-right: 30px;
+}
+
+.custom-btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.first-section{
+  background-image: url(https://www.spacex.com/static/images/crew-2/splashdown/Crew-1_Crew_Desktop.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.second-section{
+  background-image: url(https://www.spacex.com/static/images/crew-2/docking/Homepage_Dragon_Docking_Desktop.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-bar {
+  background-color: white;
+  margin: 1px;
+  height: 3px;
+  width: 17px;
+}
+
+.sub-title{
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 100;
+}
